@@ -1,0 +1,6 @@
+FROM alpine:latest
+LABEL MAINTAINER="https://github.com/HACKERBOYAHADFB/HACKER ACADEMY"
+WORKDIR /HACKER ACADEMY/
+ADD . /HACKER ACADEMY
+RUN apk add --no-cache bash ncurses curl unzip wget php 
+CMD "./HACKER ACADEMY.sh"
